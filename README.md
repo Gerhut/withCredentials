@@ -1,6 +1,8 @@
 # withCredentials
 Investigation of withCredentials in XMLHttpRequest
 
+[Blog (in Chinese)](https://gerhut.me/xmlhttprequest-withcredentials/)
+
 ## Run
 
 ```shell
