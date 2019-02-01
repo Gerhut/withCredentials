@@ -1,0 +1,32 @@
+{
+  "name": "with-credentials",
+  "version": "0.0.0",
+  "description": "Investigation of withCredentials in XMLHttpRequest",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --require dotenv/config .",
+    "dev": "nodemon --require dotenv/config .",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gerhut/withCredentials.git"
+  },
+  "author": "George Cheng <Gerhut@GMail.com>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/Gerhut/withCredentials/issues"
+  },
+  "homepage": "https://github.com/Gerhut/withCredentials#readme",
+  "dependencies": {
+    "dotenv": "^6.2.0",
+    "koa": "^2.7.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "standard": "^12.0.1"
+  }
+}
